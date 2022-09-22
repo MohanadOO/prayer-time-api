@@ -11,7 +11,7 @@ import LocaleClock from './components/LocaleClock'
 import CountryClock from './components/CountryClock'
 import { CircleSpinner } from 'react-spinners-kit'
 
-const ALADHAN_API_BASE_URL = 'http://api.aladhan.com/v1/timingsByCity'
+const ALADHAN_API_BASE_URL = 'https://api.aladhan.com/v1/timingsByCity'
 const BIGDATACLOUD_BASE_URL =
   'https://api.bigdatacloud.net/data/reverse-geocode-client'
 
@@ -129,7 +129,7 @@ function App() {
   const gregorianDate = date?.gregorian
 
   return (
-    <motion.div className='min-h-screen pt-5 px-10'>
+    <motion.div className='min-h-screen pt-5 px-5 sm:px-10'>
       <header>
         <nav>
           <ul className='flex flex-col gap-5 py-2 '>
@@ -138,7 +138,7 @@ function App() {
             </li>
             <li>
               <form onSubmit={handleSubmit}>
-                <Input inputRef={inputRef} />
+              <Input inputRef={inputRef} />
               </form>
             </li>
           </ul>

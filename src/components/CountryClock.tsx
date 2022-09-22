@@ -15,5 +15,7 @@ export default function CountryClock({ timeZone }: { timeZone: string }) {
     return () => clearInterval(interval)
   }, [])
 
-  return <p className='font-black text-6xl'>{currentTime}</p>
+  return (
+    <p className='font-black text-5xl sm:text-6xl text-center'>{currentTime}</p>
+  )
 }
