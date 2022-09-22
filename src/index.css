@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputRTL {
+  text-align: right;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.inputLTR {
+  text-align: left;
+  unicode-bidi: bidi-override;
+  direction: ltr;
+}
