@@ -1,6 +1,6 @@
 # City prayer time API 🕌
 
-This project was done by using an amazing open source [Aladhan API](https://aladhan.com/) that many islamic API options to for use in Islamic sites or sites visited by Muslims.
+This project was done by using the open-source [Aladhan API](https://aladhan.com/) which has many Islamic API options to use in Islamic sites or sites visited by Muslims.
 
 ## What is Prayer Times API?
 
